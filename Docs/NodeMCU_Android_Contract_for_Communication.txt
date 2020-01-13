@@ -1,0 +1,38 @@
+Msg Playback :
+		playMsg0 --- playMsg31
+Erase Msg :
+		eMsg0 --- eMsg31
+Record Msg :
+		rMsg0 --- rMsg31
+Stop recording Msg :
+		stopMsg0 --- stopMsg31
+
+
+Start Auto VR :
+		SAVR1
+Stop Auto VR:
+		SAVR0
+Manual Voice Recognition:
+		VR
+Setup Easy VR (stops serial monitor): -- not used anymore as it is automatically executed
+		EVR
+Start Learning: -- not used
+		SL
+		
+
+return current status of the sensors:
+		sensorQuery
+send logged data:
+		syncQuery
+reset logs:
+		rstLog
+Request for Msg list :
+		msgQuery
+
+
+Sensors:
+	Head Sensor: SHES1(On) | SHES0(Off)
+	Back Sensor: SBAS1(On) | SBAS0(Off)
+	Tummy Sensor: STUS1(On) | STUS0(Off)
+
+
